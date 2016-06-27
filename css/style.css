@@ -19,7 +19,7 @@ hr {
 }
 .searchbar	{
 	width: 400px;
-	margin-left: 200px;
+	margin-left: 100px;
 	box-sizing: border-box;
 	border: 2px solid #ccc;
 	border-radius: 8px;
@@ -36,36 +36,43 @@ h3 {
 	font-family: "Rock Salt", cursive;
 	margin-left: 40px;
 	padding-left: 40px;
-	width: 400px;
+	width: 200px;
 	position: absolute;
 	top: -80px;
 	left: -40px;
 }
-ul {
-	margin-right: 633px;
-	vertical-align: baseline;
-	padding-right: 25px;
-}
 .items {
 	font-family: "Shadows Into Light Two", cursive;
 	font-size: 22px;
-	vertical-align: baseline;
 	position: absolute;
 	padding-top: 10px;
 	top: 311px;
-	left: 633px;
-	width: 400px;
+	left: 533px;
 	float: right;
 	list-style: none;
 }
 .items >li {
 	padding-bottom: 10px;
-	padding-right: 25px;
-}
-.crossedout {
-	text-decoration: line-through; 
 }
 .fa-trash {
-	vertical-align: bottom;
-	padding-left: 50px; 
+	padding-left: 10px; 
+	padding-right: 20px;
+}
+.shoppingcart {
+	font-family: "Rock Salt", cursive;
+	position: absolute;
+	top: -90px;
+	left: -45px;
+}
+.cart-items{
+	font-family: "Shadows Into Light Two", cursive;
+	font-size: 22px;
+	position: absolute;
+	top: 321px;
+	left: 850px;
+	float: right;
+	list-style: none;
+}
+.crossed-out{
+	text-decoration: line-through;
 }
