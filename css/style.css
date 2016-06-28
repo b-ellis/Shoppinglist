@@ -61,15 +61,17 @@ h3 {
 .shoppingcart {
 	font-family: "Rock Salt", cursive;
 	position: absolute;
+	width: 250px;
 	top: -90px;
 	left: -45px;
 }
 .cart-items{
 	font-family: "Shadows Into Light Two", cursive;
 	font-size: 22px;
+	width: 2500px;
 	position: absolute;
-	top: 321px;
-	left: 850px;
+	top: 12px;
+	left: 280px;
 	float: right;
 	list-style: none;
 }
