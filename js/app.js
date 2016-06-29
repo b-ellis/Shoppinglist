@@ -5,12 +5,14 @@ $(document).ready(function(){
 	 	$('.items').append('<li><i class="fa fa-check"><i class="fa fa-trash">' + item + '</li>');
 	 	console.log(this);
 	 });
-	 $('.fa-check').click(function() {
-	 	var currentItem = $(this).parent('li');
-	 	currentItem.appendTo('.cart .cart-items');
-	 	console.log(this);
+
+	 $('.parent').on('click', '.fa-check', function() {
+		 var currentItem = $(this).parent('li');
+		 currentItem.appendTo('.cart .cart-items');
+		 console.log(this);
 	 });
-	 $('.fa-trash').on('click', function() {
+	 
+	 $('.parent').on('click', '.fa-trash', function() {
 	 	console.log(this);
 	 	var currentItem = $(this).parent('li');
 	 	currentItem.remove();
