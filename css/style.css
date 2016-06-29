@@ -68,10 +68,10 @@ h3 {
 .cart-items{
 	font-family: "Shadows Into Light Two", cursive;
 	font-size: 22px;
-	width: 2500px;
+	width: 500px;
 	position: absolute;
-	top: 12px;
-	left: 280px;
+	top: 322px;
+	left: 800px;
 	float: right;
 	list-style: none;
 }
