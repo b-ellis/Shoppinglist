@@ -2,7 +2,7 @@ $(document).ready(function(){
 	 $('.submit').on("click", function(event){
 	 	event.preventDefault();
 	 	var item = $('.searchbar').val();
-	 	$('.items').append('<li><i class="fa fa-check"><i class="fa fa-trash">' + item + '</li>');
+	 	$('.items').append('<li><i class="fa fa-check"></i><i class="fa fa-trash"></i>' + item + '</li>');
 	 	console.log(this);
 	 });
 
@@ -11,7 +11,7 @@ $(document).ready(function(){
 		 currentItem.appendTo('.cart .cart-items');
 		 console.log(this);
 	 });
-	 
+
 	 $('.parent').on('click', '.fa-trash', function() {
 	 	console.log(this);
 	 	var currentItem = $(this).parent('li');
