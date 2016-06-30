@@ -41,6 +41,17 @@ h3 {
 	top: -80px;
 	left: -40px;
 }
+p{
+	text-align: left;
+	font-family: "Rock Salt", cursive;
+	margin-left: 40px;
+	padding-left: 40px;
+	width: 250px;
+	position: absolute;
+	top: -24px;
+	left: 222px;
+	font-size: 12px;
+}
 .items {
 	font-family: "Shadows Into Light Two", cursive;
 	font-size: 22px;
@@ -78,3 +89,4 @@ h3 {
 .crossed-out{
 	text-decoration: line-through;
 }
+

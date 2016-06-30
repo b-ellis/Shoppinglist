@@ -17,5 +17,7 @@ $(document).ready(function(){
 	 	var currentItem = $(this).parent('li');
 	 	currentItem.remove();
 	 });
-
+	 $('.cart').dblclick('.fa-check', function() {
+	 	$('.cart li').wrap('<strike>');
+	 });
 });
